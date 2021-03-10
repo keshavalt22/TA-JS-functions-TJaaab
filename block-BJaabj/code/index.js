@@ -1,7 +1,10 @@
 /*
 1. Create a function named `sayHello` that alerts a message `Hello World!`.
 */
-
+// function sayHello () {
+//   alert(`Hello World`);
+// }
+// sayHello();
 /*
 2. Create a function named `fullName` with the following steps:
 
@@ -69,12 +72,15 @@
   - Alert `[year] is a leap year` otherwise `[year] is not a leap year`
 */
 // function isLeapYear () {
-//   let year = +prompt(`Enter a year`);
-// if (year % 4 === 0){
+// let year = +prompt(`Enter a year`);
+// if (year % 400 === 0){
+//   alert(`${year} is a leap year`)
+// }else if (year % 100 === 0){
+//   alert(`${year} is not a leap year`)
+// }else if (year % 4 === 0){
 //   alert(`${year} is a leap year`)
 // }else {
 //   alert(`${year} is not a leap year`)
-// }
 // }
 // isLeapYear ();
 /*
@@ -85,15 +91,10 @@
 
 */
 let number = +prompt(`Enter a number`);
-let factorial
-let sum = "";
+let factorial = 1;
 let i = number;
-while (i >= 1){
-  // console.log(i)
-  sum += i;
-  i--;
-  console.log(number = number * i);
+for (i = number; i >= 1; i--) {
+  factorial = factorial * i;} {
+  console.log(`The factorial of ${number} is ${factorial}`);
 }
 
-// let factorial=(number = number * i);
-// console.log(`The factorial of ${number} is ${factorial}`);
