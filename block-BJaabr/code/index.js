@@ -206,23 +206,46 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
-function isGreater (x,y) {
-  if (x > y) {
-    return true
-  }else return false
-}
+// function isGreater (x,y) {
+//   if (x > y) {
+//     return true
+//   }else {
+//     return false
+//   }  
+// }
 // - Write a Function Expression
+
+// let isGreater =  function (x,y) {
+//   if (x > y) {
+//     return true
+//   }else {
+//     return false
+//   }  
+// }
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let isGreater = (x,y) => x > y ? true : false;
+
 // - Write an Arrow Function with curly brackets
 
-// - Execute the function
+// let isGreater = (x,y) => {
+//   if (x > y) {
+//     return true
+//   }else {
+//     return false
+//   }  
+// }
 
+// - Execute the function
+// isGreater(3,2);
 // - Execute the function and store the return value in a variable
+
+// let isGreaterVar = isGreater(3,2);
 
 // - What is the typeof returnValue
 
+// "boolean"
 /* 6.
 
 Write a function named `oddOrEven` that accepts a`number` and returns
@@ -235,16 +258,56 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function oddOrEven(number) {
+//   if (number % 2 === 0) {
+//     return `Number is even`
+//   }else {
+//     return `Number is odd`
+//   }
+// }
+
 // - Write an anonymous Function Expression
+
+// let oddOrEven = function (number) {
+//   if (number % 2 === 0) {
+//     return `Number is even`
+//   }else {
+//     return `Number is odd`
+//   }
+// }
 
 // - Write an named Function Expression
 
+// let oddOrEven = function orEven(number) {
+//   if (number % 2 === 0) {
+//     return `Number is even`
+//   }else {
+//     return `Number is odd`
+//   }
+// }
+
 // - Write an Arrow Function without curly brackets (hint: use ternary operator)
+
+// let oddOrEven = (number) => number % 2 === 0 ? `number is even` : `number is odd`;
 
 // - Write an Arrow Function with curly brackets
 
+// let oddOrEven = (number) => {
+//   if (number % 2 === 0) {
+//     return `Number is even`
+//   }else {
+//     return `Number is odd`
+//   }
+// }
+
 // - Execute the function
+
+// oddOrEven (4);
 
 // - Execute the function and store the return value in a variable
 
+// let orEven = oddOrEven (5)
+
 // - What is the typeof returnValue
+
+// "string"
