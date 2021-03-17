@@ -1,4 +1,4 @@
-// -ook at the example below and do the same for other problems.
+// Look at the example below and do the same for other problems.
 
 /*
 Write a function named convertToString that accepts a number and converts the number into a string (hint: use String()) and return the converted value.
@@ -7,28 +7,28 @@ Do the following for the given problem:
 */
 
 // - Write a Function Decleration
-function convertToString(n) {
-  return String(n);
-}
+// function convertToString(n) {
+//   return String(n);
+// }
 
 // - Write a Function Expression
-let convertToString = function (n) {
-  return String(n);
-};
+// let convertToString = function (n) {
+//   return String(n);
+// };
 
 // - Write an Arrow Function without curly brackets (if possible)
-let convertToString = (n) => String(n);
+// let convertToString = (n) => String(n);
 
 // - Write an Arrow Function with curly brackets
-let convertToString = (n) => {
-  return String(n);
-};
+// let convertToString = (n) => {
+//   return String(n);
+// };
 
 // - Execute the function
-convertToString(21);
+// convertToString(21);
 
 // - Execute the function and store the return value in a variable.
-let returnValue = convertToString(23);
+// let returnValue = convertToString(23);
 
 // - What is the typeof returnValue
 // typeof returnValue is "string"
@@ -42,17 +42,39 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function addOne(a) {
+//   return a + 1;
+// }
+
+
+
 // - Write a Function Expression
+
+// let addOne = function(a){
+//   return a + 1;
+// }
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let addOne = (a) => a + 1;
+
 // - Write an Arrow Function with curly brackets
+
+// let addOne = (a) => {
+//   return a + 1;
+// }
 
 // - Execute the function
 
+// addOne(21);
+
 // - Execute the function and store the return value in a variable.
 
+// let retrunAddOne = addOne(23)
+
 // - What is the typeof returnValue
+
+// typeof of addOne(21) is "number".
 
 /* 2. Subtract one
 
@@ -63,17 +85,37 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function substractOne (a) {
+//   return a - 1;
+// }
+
 // - Write a Function Expression
+
+// let substractOne = function(a){
+//   return a - 1;
+// }
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let substractOne = (a) => a - 1;
+
 // - Write an Arrow Function with curly brackets
+
+// let substractOne = (a) => {
+//   return a - 1;
+// }
 
 // - Execute the function
 
+// substractOne (9);
+
 // - Execute the function and store the return value in a variable.
 
+// let returnSubstractOne = substractOne (9);
+
 // - What is the typeof returnValue
+
+// typeof of addOne(21) is "number".
 
 /* 3. Add two numbers
 
@@ -84,17 +126,37 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function sum (a, b) {
+//   return a + b;
+// }
+
 // - Write a Function Expression
+
+// let sum = function (a, b) {
+//   return a + b;
+// }
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let sum = (a,b) => a + b;
+
 // - Write an Arrow Function with curly brackets
+
+// let sum = (a,b) => {
+//   return a + b;
+// }
 
 // - Execute the function
 
+// sum (22, 34);
+
 // - Execute the function and store the return value in a variable
 
+// let sumNumber = sum (22, 34);
+
 // - What is the typeof returnValue
+
+// typeof of sum (22, 34) is "number".
 
 /* 4. Square of the given value
 
@@ -105,17 +167,35 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function square (num) {
+//   return num * num;
+// }
+
 // - Write a Function Expression
+
+// let square = function (num) {
+//   return num * num;
+// }
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let Square = (num) => num * num;
+
 // - Write an Arrow Function with curly brackets
 
-// - Execute the function
+// let square = (num) => {
+//   return num * num;
+// }
 
+// - Execute the function
+// square (3);
 // - Execute the function and store the return value in a variable
 
+// let squareNum = square (3);
+
 // - What is the typeof returnValue
+
+// typeof of square(3) is "number".
 
 /* 5. Find isGreater
 
@@ -126,6 +206,11 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+function isGreater (x,y) {
+  if (x > y) {
+    return true
+  }else return false
+}
 // - Write a Function Expression
 
 // - Write an Arrow Function without curly brackets(if possible)
