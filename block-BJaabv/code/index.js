@@ -7,10 +7,13 @@
   * [ ] Return the result dog age in dog year.
   * [ ] Add an additional argument to the function that takes the conversion rate of human to dog years.
 */
+// let age = +prompt(`what is your dogs age?`);
+// function calculateDogAge(age) {
+//   return age * 7;
+// }
+// let dogAge = calculateDogAge(age);
+// alert (`${dogAge}`);
 
-function calculateDogAge() {
-  // Your code goes here
-}
 
 /*
 2. 🎖Write a function named calculateMoviesToWatch that:
@@ -19,9 +22,16 @@ function calculateDogAge() {
   * [ ] Return the total number of movie you will watch.
 */
 
-function calculateMoviesToWatch() {
-  // Your code goes here
-}
+
+// function calculateMoviesToWatch( age, moviePerWeek) {
+//   let maxAge = 100;
+//   let totalMovies = (moviePerWeek * 52.143) * (maxAge - age);
+//   alert (`${totalMovies}`);
+// }
+
+// calculateMoviesToWatch(29,6);
+
+
 
 /*
 3. 🎖Create a function called celsiusToFahrenheit:
@@ -29,9 +39,12 @@ function calculateMoviesToWatch() {
   * [ ] Convert it to fahrenheit and return "NN°F is NN°C"
 */
 
-function celsiusToFahrenheit() {
-  // Your code goes here
-}
+// function celsiusToFahrenheit(celsius) {
+//   let Fehrenheit = (celsius / 5) * 9 + 32;
+//   alert (`${celsius} is ${Fehrenheit}`);
+// }
+
+// celsiusToFahrenheit (30);
 
 /*
 4. 🎖Create a function called fahrenheitToCelsius:
@@ -39,9 +52,12 @@ function celsiusToFahrenheit() {
   * [ ] Convert it to celsius and return "NN°F is NN°C"
 */
 
-function celsiusToFahrenheit() {
-  // Your code goes here
-}
+// function celsiusToFahrenheit(fehrenheit) {
+//   let celsius = (fehrenheit - 32) * 5 / 9;
+//   alert(`${fehrenheit} is ${celsius}`);
+// }
+
+// celsiusToFahrenheit(86);
 
 /*
 5. 🎖 Write a function pow(n, x) that returns x in power n.
@@ -51,9 +67,13 @@ function celsiusToFahrenheit() {
   * [ ] If the value of n is below 0 return "The number below 1 is not allowed"
 */
 
-function pow() {
-  // Your code goes here
-}
+// function pow(n,x) {
+//   if(n >= 1){
+//     return n ** x;
+//   }else {
+//     return (`The number below 1 is not allowed`)
+//   }
+// }
 
 // Test
 pow(3, 2); // 9
@@ -66,8 +86,12 @@ pow(-31, 2); // "The number below 1 is not allowed"
 and return sum or product of 1,…,n. If user enters any other value than `sum` or `product` alert `Not a valid Input`.
 */
 
+let n;
+let sum = n + 6;
+let product = n * 6;
+
 function sumOrProductOfN() {
-  // Your code goes here
+  
 }
 
 sumOrProductOfN(4, 'sum'); // 10
